@@ -1,0 +1,49 @@
+.main {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("../../public/Bridge.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  height: auto;
+  width: 350px;
+  position: absolute;
+  transform: translate(-50%, -20%);
+  top: 30%;
+  left: 50%;
+}
+.todo-container {
+  display: flex;
+  background-color: #ebcdab;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  padding: 10px 12px;
+  border-radius: 8px;
+}
+.todo-container p {
+  font-weight: 600;
+}
+.left-items {
+  display: flex;
+  align-items: center;
+}
+.down-arrow {
+  margin-left: 90px;
+}
+.density-icon {
+  margin-right: 20px;
+  color: #937757;
+}
+.textfield {
+  width: 230px;
+}
+
